@@ -1,0 +1,23 @@
+# Dependencias (se reinstalan con npm install)
+node_modules/
+
+# Compilado de TypeScript (se genera con npm run build)
+dist/
+
+# Variables de entorno: nunca se suben. Se usa .env.example como plantilla
+.env
+.env.*
+!.env.example
+
+# Material de apoyo local
+docs/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Archivos del sistema y del editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
